@@ -31,7 +31,7 @@ This SOP applies to all personnel involved in the operation, maintenance, and su
 ### Step 2: Record Current Environment Metrics
 
 1. **Environmental Recording**
-   - Do **not** reboot the system on occurrence.
+   - Do **not** reboot the system on any occurrence.
    - Perform earthing voltage testing.
    - Use a monitoring tool to record the current environment settings without making any changes.
 
