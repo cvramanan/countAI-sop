@@ -1,0 +1,22 @@
+# SOP Master List
+
+| S.No | SOP Name                                              | Ownership   | Who Uses It                     |
+|------|------------------------------------------------------|------------|----------------------------------|
+| 1    | Defect Data Creation                                 | Validation | Validation                       |
+| 2    | Post Model Deployment                                | Validation | Validation                       |
+| 3    | Model Training                                       | Validation | Validation                       |
+| 4    | Model Pre-deployment SOP                             | Validation | Validation                       |
+| 5    | Troubleshooting SOP                                  | Validation | Validation & Support             |
+| 6    | Engineer Support                                     | Validation | Validation & Service             |
+| 7    | Internal Findings                                    | Validation | Validation & Cross Functional    |
+| 8    | Installed Machine Documentation                      | Service    | Service & Cross Functional       |
+| 9    | Service Report                                       | Service    | Service & PM                     |
+| 10   | Post Installation – Customer Acknowledgement         | Service    | Customer                         |
+| 11   | Post Installation – Customer Training                | Service    | Customer                         |
+| 12   | Engineer Deputation                                  | PM         | PM                               |
+| 13   | Pre-Requisite                                        | PM         | PM                               |
+| 14   | SE – Terms & Conditions                              | Service    | Service                          |
+| 15   | SE – Daily Routine                                   | Service    | Service                          |
+| 16   | Pre-Installation – SE Material Auditing (Internal)  | Service    | Service                          |
+| 17   | Pre-Installation – SE Material Auditing (External)  | Service    | Service                          |
+| 18   | Accuracy Points                                      | Service    | Service                          |
