@@ -30,6 +30,8 @@ SOP_<Department code>_<SOP name>
 | 013 | Purchase |
 | 014 | Administrative |
 | 015 | Office Maintenance |
+| 016 | Customer & Maintenence |
+
 
 No custom or ad-hoc department codes are permitted.
 
