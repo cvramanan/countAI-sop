@@ -1,175 +1,224 @@
-# Standard Operating Procedure (SOP)  
-## Creating Defects in Circular Knitting Machine – Single Jersey
+# Data Creation SOP
 
 ---
 
 ## Scope
+
 This procedure applies to the creation of defects in single jersey fabric using a circular knitting machine.  
 It is intended for use by qualified personnel who have received proper training.
 
 ---
 
 ## Responsibilities
-- **Operator / Machine Technician**  
-  Responsible for creating defects according to this SOP.
-- **Quality Control (QC) Personnel**  
-  Responsible for verifying defects and ensuring data accuracy.
-- **Mill Personnel**  
-  Responsible for providing prior permission and oversight.
+
+- **Operator / Machine Technician**
+  - Responsible for creating defects according to the SOP.
+
+- **Quality Control (QC) Personnel**
+  - Responsible for verifying the defects and ensuring data accuracy.
+
+- **Mill Personnel**
+  - Responsible for providing prior permission and oversight.
 
 ---
 
-## Procedure
-
-### 1. Preparation
-- **New Roll Number**: Ensure a new roll number is created in the system before starting defect creation.
-- **Permission**: Obtain prior permission from mill personnel.
-- **Machine Check**: Ensure the circular knitting machine is in proper working condition.
+# Procedure
 
 ---
 
-### 2. Creating Lycra Cut Defect
-- Create **5–10 lycra cut defects**.
-- Ensure defects are evenly distributed and clearly visible across the fabric.
+## 1. Preparation
+
+- **New Roll Number**
+  - Ensure a new roll number is created in the system before starting defect creation.
+
+- **Defect Mapping**
+  - For each defect, note the start and stop revolution where the defect is present.
+  - Inform the validation team.
+
+- **Defect Visibility**
+  - Ensure the defect is clearly visible while creating the data.
+  - If any defect is subtly visible, inform the validation team.
+
+- **Permission**
+  - Obtain prior permission from mill personnel before starting defect creation.
+
+- **Machine Check**
+  - Ensure the circular knitting machine is in proper working condition.
+
+- **Defect Creation Objective**
+  - **500 GT images per defect (Compulsory)**
+
+- **Instructions**
+  - Bypass the machine and collect data by jogging the machine.
+  - Save images as instructed.
+  - Defect must appear in different positions/angles.
+  - Similar defect positions in images are strictly avoided.
 
 ---
 
-### 3. Creating Holes
-Create holes in the fabric as per the following specifications:
+# Defect Creation Guidelines
+
+---
+
+## 2. Creating Lycra Cut Defect
+
+- Create **5 to 10** lycra cut defects.
+- Ensure defects are evenly distributed.
+- Ensure defects are clearly visible across the fabric.
+
+---
+
+## 3. Creating Holes
+
+Create holes in the following sizes:
 
 | Hole No | Size |
-|------|------|
-| 1 | 0.5 mm |
-| 2 | 1 mm |
-| 3 | 1.5 mm |
-| 4 | 2 mm |
-| 5 | 5 mm |
-| 6 | 1 cm |
-| 7 | 1.5 cm |
-| 8 | 5 cm |
+|----------|------|
+| Hole 1   | 0.5 mm |
+| Hole 2   | 1 mm |
+| Hole 3   | 1.5 mm |
+| Hole 4   | 2 mm |
+| Hole 5   | 5 mm |
+| Hole 6   | 1 cm |
+| Hole 7   | 1.5 cm |
+| Hole 8   | 5 cm |
 
-- Ensure holes are created **at least 8 times** in **4 different angles** with varying diameters.
+- Each hole size must be placed **at least 8 times**
+- Use **4 different angles**
+- Ensure varying diameters are clearly visible
 
 ---
 
-### 4. Creating Lycra Jump (Lycra Dash)
+## 4. Creating Lycra Jump (Lycra Dash)
+
 - Create lycra jump defects.
 - Ensure defects are visible in **at least 30 images**.
-- Verify even distribution of defects.
+- Verify even distribution across the fabric.
 
 ---
 
-### 5. Creating Shut Off Defect (Press Off)
-- Create a **minimum of 1 doff** with shut-off defects.
-- Ensure the defect is clearly visible and documented.
+## 5. Creating Shut Off Defect (Press Off)
+
+- Create a minimum of **1 doff** with shut-off defects.
+- Ensure defect is clearly visible and documented.
 
 ---
 
-### 6. Creating Two-Ply Defect
-- Create two-ply defects in **5–10 doffs**.
+## 6. Creating Two-Ply Defect
+
+- Create defects in **5 to 10 doffs**.
 - Ensure defects are clearly evident and documented.
 
 ---
 
-### 7. Creating 7 Needle Line Defect  
-*(Both Cylinder & Dial – for Double Jersey)*
+## 7. Creating 7 Needle Line Defect  
+*(Both Cylinder & Dial – For Double Jersey)*
 
-- Create **7 needle lines** on the fabric:
-  - **Longer sides**: 2 needle lines on each side
-  - **Shorter sides**: 1 needle line on each side
+Create 7 needle lines as follows:
+
+- **Longer Sides**
+  - 2 needle lines on each longer side
+
+- **Shorter Sides**
+  - 1 needle line on each shorter side
 
 ---
 
-## Data Collection
+# Data Collection Procedures
 
-### 8. Data Collection with Needle Drop
+---
+
+## 8. Data Collection With Needle Drop
+
 - Identify the needle drop point.
-- Measure distances of **1 cm, 2 cm, 5 cm, and 8 cm** on **both sides** of the needle drop.
-- Create needle line defects near the needle drop for all distances **at the same time**.
-- For each defect created in **15–20 doffs**, record measurements and observations.
+- Measure distances:
+  - 1 cm
+  - 2 cm
+  - 5 cm
+  - 8 cm  
+  *(On both sides of the needle drop)*
+
+- Create a needle line defect near the needle drop at all distances.
+- This must be done simultaneously.
+- For each defect created in **15 to 20 doffs**, record:
+  - Measurements
+  - Observations
 
 ---
 
-### 9. Data Collection with Selvedge
+## 9. Data Collection With Selvedge
+
 - Identify the selvedge.
-- Create needle lines on **both sides** of the selvedge.
-- Measure distances of **1 cm, 2 cm, 5 cm, and 8 cm** from the selvedge on both sides.
-- Create needle line defects for all distances.
-- For **15–20 doffs**, record measurements and observations.
+- Create needle lines on both sides of the selvedge.
+- Measure distances:
+  - 1 cm
+  - 2 cm
+  - 5 cm
+  - 8 cm  
+  *(On both sides)*
+
+- Create needle line defects at all distances.
+- For each **15 to 20 doffs**, record:
+  - Measurements
+  - Observations
 
 ---
 
-### 10. Creating IRO Line / Belt Line
-- Create an IRO or belt line defect.
-- Observe and collect defect data.
-- Ensure accurate and comprehensive documentation.
+## 10. Creating IRO Line or Belt Line
+
+- Create an IRO line or belt line defect.
+- Observe the defect carefully.
+- Collect comprehensive and accurate data.
 
 ---
 
-### 11. Double Edge Needle Line  
-*(Fabric Coverage Validation)*
+## 11. Double Edge Needle Line (Fabric Coverage Check)
 
-- Used to validate fabric coverage for camera setup.
-- Measure camera coverage using a measuring tape.
-- Based on coverage:
-  - Create **1 needle line** at the left end of the camera angle.
+Purpose: To check fabric coverage on the camera setup.
+
+- Measure the camera coverage area using a measuring tape.
+- According to the measurement:
+  - Create **1 needle line** at the left end of camera angle.
   - Create **1 needle line** at the right end.
-- In the rotation image, **both needle lines must appear in a single image**.
+- During rotation image observation:
+  - Both needle lines must appear in a single image.
 
 ---
 
-## Data Management
-- **Data Backup**: Copy all defect-related data to a hard disk immediately.
-- **Data Upload**: Upload all data and images to **OneDrive**.
-- **Documentation**: Ensure data is properly labeled and organized for easy retrieval.
+# Data Management
 
 ---
 
-## Reporting and Review
+## Data Backup
+
+- Immediately copy all defect-related data to a hard disk.
+
+## Data Upload
+
+- Upload collected data and images to **OneDrive**.
+
+## Documentation
+
+- Ensure:
+  - Proper labeling
+  - Organized storage
+  - Easy retrieval
+
+---
+
+# Reporting and Review
+
 - Review all created defects with QC personnel.
-- Verify documentation completeness and accuracy.
-- Report anomalies or issues to the supervisor.
+- Ensure proper documentation and storage.
+- Report any anomalies or issues to the supervisor immediately.
 
 ---
 
-## Safety Considerations
-- Follow all safety protocols while operating the circular knitting machine.
+# Safety Considerations
 
+- Follow all safety protocols while operating the knitting machine.
+- Ensure proper PPE usage.
+- Never bypass safety mechanisms without authorization.
+
+# Refer the document - https://docs.google.com/document/d/19_OyIjyyIUDLJcp0m3SIBX1Kkye3FS60dPB7Ye3HUws/edit?usp=sharing
 ---
-
-# DATA Creation Sheet – Knitting
-
-## Machine Information
-
-| Field | Details |
-|------|--------|
-| Machine Name | |
-| Date | |
-| Machine Diameter | |
-| Type of Machine | |
-| Program Details | |
-| Count | |
-| Denier | |
-| Loop Length | |
-| GSM | |
-| Take-up Tension | |
-| Needle Drop | Yes / No |
-
----
-
-## Defect Creation Log
-
-| S. No | Defect Name | Time of Creation | Roll No | Start Doff No | End Doff No | Length of Defect (cm) | Visibility | Camera (Cam1 / Cam2) |
-|----|-------------|-----------------|--------|---------------|-------------|----------------------|------------|----------------------|
-| 1 | Lycra | | | | | | | |
-| 2 | Press Off | | | | | | | |
-| 3 | Lycra Jump | | | | | | | |
-| 4 | Two Ply | | | | | | | |
-| 5 | Hole | | | | | | | |
-| 6 | Needle Line | | | | | | | |
-| 7 | IRO Line | | | | | | | |
-
----
-test
-
-## Comments
