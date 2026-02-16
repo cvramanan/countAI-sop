@@ -1,22 +1,26 @@
 # STANDARD OPERATING PROCEDURE (SOP)
 
 ## Title: Software Testing and Release Procedure  
-**Version:** 1.0  
-**Effective Date:** 12.2.2026
+**Version:** 1.0.1  
+**Effective Date:** 16.02.2026  
 **Prepared by:** Siva / Software  
-**Approved by:** -- 
+**Approved by:** --  
 
 ---
 
 ## 1. Purpose
 
-This SOP defines the standardized process for testing, validating, and deploying software updates across production machines to ensure system stability, controlled rollout, minimal downtime, and proper documentation.
+This SOP defines the standardized process for testing, validating, and deploying software updates across mill-side production machines to ensure system stability, controlled rollout, minimal downtime, and proper documentation.
 
 ---
 
 ## 2. Scope
 
-This procedure applies to all production and test machines managed by the software team, including internal testing systems and customer production environments.
+This procedure applies to:
+
+- Internal office test machines  
+- Mill-side production machines  
+- Customer production environments managed by the software team  
 
 ---
 
@@ -37,23 +41,23 @@ This procedure applies to all production and test machines managed by the softwa
 | Developer | Prepare release build and release notes |
 | QA / Testing Engineer | Perform functional and regression testing |
 | System Administrator | Execute deployment and verify system status |
-| Monitoring Engineer | Monitor performance, logs, and alerts |
+| Monitoring Engineer | Monitor performance and logs |
 | Team Lead / Manager | Approve release stages and final deployment |
 
 ---
 
 ## 5. Pre-Release Testing Process
 
-Before deployment to any production machine:
+Before deployment to any mill-side production machine:
 
 - Code must be merged to the main/release branch.
-- CI pipeline must pass successfully.
 - Unit and integration tests must be completed.
 - QA must validate:
-  - Functional requirements
-  - Regression testing
-  - Log validation
-  - Performance checks (if applicable)
+  - Functional requirements  
+  - Regression testing  
+  - Log validation  
+  - Performance checks (if applicable)  
+- CI pipeline must pass successfully.
 - Release notes must be prepared.
 - Backup and rollback plan must be verified.
 
@@ -75,47 +79,59 @@ Only after successful validation can the rollout process begin.
   - Performance behavior
 - QA approval required before proceeding.
 
-Once confirmed stable, proceed to phased rollout.
+If any issue is detected, fix the issue and restart the process from Stage 0.
 
 ---
 
 ### Phase 1: Pilot Update (1 Machine)
 
-- Select one controlled production/test machine.
-- Apply update.
-- Monitor system behavior for 24 hours.
+> **Machine Type:** Mill-side production machine
+
+- Deploy update to **1 mill-side production machine**.
+- Monitoring duration: **2 days**.
 - Validate:
   - Service stability
   - Logs
   - Resource utilization
   - Error reports
   - 100% of the test cases must pass. If even 1–2% fail, the release will not proceed.
-- Proceed only if system is stable.
+- Proceed only if system is fully stable.
+
+If failed, fix the issue and restart the process from Stage 0.
 
 ---
 
-### Phase 2: Controlled Batch (Next 5 Machines)
+### Phase 2: Controlled Batch (5 Machines)
 
-- Deploy update to 5 machines.
+> **Machine Type:** Mill-side production machines
+
+- Deploy update to **5 mill-side production machines**.
+- Monitoring duration: **3 days**.
 - Validate:
   - Logs
   - Network connectivity
   - Performance metrics
   - Database health
-- Monitor for 12–24 hours.
 - Approval required before moving to full rollout.
+
+If failed, fix the issue and restart from Stage 0.
 
 ---
 
 ### Phase 3: Full Rollout (Remaining Machines)
 
-- Deploy updates in batches of 10–20 machines.
-- After each batch:
+> **Machine Type:** Remaining mill-side production machines
+
+- Deploy updates in batches of **10 machines per day**.
+- Only **10 mill-side production machines per day** must be updated.
+- Continue day-by-day until all machines are updated.
+- After each daily batch:
   - Verify service health
   - Confirm logs are consistent
-  - Check monitoring dashboard
-- Ensure all machines are updated successfully.
+  - Check monitoring status
 - Final confirmation report must be prepared.
+
+If any batch fails, stop rollout immediately, fix the issue, and restart from Stage 0.
 
 ---
 
@@ -160,21 +176,20 @@ All documentation must be stored in the designated project repository.
 
 ## 10. Tools and Automation
 
-- CI/CD: Jenkins / GitHub Actions / GitLab CI
-- Deployment: Ansible / SaltStack / Puppet
-- Containers: Docker / Kubernetes (if applicable)
-- Monitoring: Prometheus / Grafana
-- Version Control: Git
-- Automation Scripts: Python / Bash
+- CI/CD: GitHub Actions  
+- Container: Docker  
+- Version Control: Git  
+
+(Only the above tools are currently used and followed by the team.)
 
 ---
 
 ## 11. Sample Release Timeline
 
-- Internal Testing: 2–3 Days
-- Phase 1 (1 Machine): Day ?
-- Phase 2 (5 Machines): Day ?
-- Phase 3 (Remaining Machines): Day ?
+- Internal Testing: 2–3 Days  
+- Phase 1 (1 Machine): 2 Days  
+- Phase 2 (5 Machines): 3 Days  
+- Phase 3 (10 Machines Per Day): Day-by-day until completion  
 
 Timeline may vary based on system complexity and risk level.
 
@@ -190,6 +205,7 @@ Timeline may vary based on system complexity and risk level.
 
 ---
 
-**Document Version:** 1.0  
-**Next Review Date:**  --
-**Owner:** Software
+**Document Version:** 1.0.1  
+**Date:** 16.02.2026  
+**Next Review Date:** --  
+**Owner:** Software  
