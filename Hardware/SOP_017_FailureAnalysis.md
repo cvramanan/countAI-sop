@@ -1,6 +1,6 @@
 ![Failue_Analysis](https://github.com/user-attachments/assets/11bc967b-029f-4001-a800-49b3d871b026)
 
-
+<img width="811" height="1510" alt="Failure_Analysis" src="https://github.com/user-attachments/assets/55a40798-88f8-4ae1-ba3e-5adbbe752766" />
 @startuml
 title Hardware Team SOP – Electrical Documentation & Failure Analysis
 
