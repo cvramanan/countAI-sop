@@ -1,3 +1,6 @@
+![Failue_Analysis](https://github.com/user-attachments/assets/11bc967b-029f-4001-a800-49b3d871b026)
+
+
 @startuml
 title Hardware Team SOP – Electrical Documentation & Failure Analysis
 
@@ -16,7 +19,8 @@ end note
 
 if (Repeated Failure?) then (Yes)
 
-    :Collect Failure Data;
+    :Collect Failure Data;![Failue_Analysis](https://github.com/user-attachments/assets/d123c26b-7e95-4af0-8e01-05c50c9f0edc)
+
     :Analyze Power Quality;
    
     if (Power Issue?) then (Yes)
@@ -87,6 +91,3 @@ end note
 
 stop
 @enduml
-
-
-
