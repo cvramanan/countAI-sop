@@ -1,0 +1,92 @@
+@startuml
+title Hardware Team SOP – Electrical Documentation & Failure Analysis
+
+start
+
+:Receive Hardware Failure Information;
+note right
+Source:
+- Production
+- Service Team
+- Customer Complaint
+end note
+
+:Record Failure Details;
+:Analyze Root Cause;
+
+if (Repeated Failure?) then (Yes)
+
+    :Collect Failure Data;
+    :Analyze Power Quality;
+   
+    if (Power Issue?) then (Yes)
+        :Identify Voltage / Ground / Spike Issues;
+        :Recommend Improvements;
+        :Coordinate with Electrical Team;
+    else (No)
+        :Analyze Mounting Method;
+        :Review Design;
+        :Modify Clamp / 3D Design;
+    endif
+
+else (No)
+   
+    :Collect Failed Component;
+    :Perform Functional Testing;
+   
+    if (Component Functional?) then (Yes)
+        :Close Case;
+    else (No)
+        :Verify Warranty Status;
+        :Initiate Warranty Claim;
+        :Record Results;
+    endif
+
+endif
+
+:Perform Root Cause Analysis (5 Why);
+
+:Evaluate Alternative Components;
+
+if (Management Approval?) then (Approved)
+   
+    :Procure Sample Components;
+    :Perform Hardware Testing;
+    :Validate Functional Requirements;
+    :Conduct Field Trial;
+
+    if (Field Trial Successful?) then (Yes)
+        :Finalize Solution;
+        :Update Documentation;
+        :Implement Full Scale;
+    else (No)
+        :Re-evaluate Component;
+    endif
+
+else (Rejected)
+    :Select Alternative Component;
+endif
+
+:Maintain Records;
+note right
+Records include:
+- Electrical Drawings
+- Failure Reports
+- RCA Documents
+- Warranty Records
+- Validation Reports
+end note
+
+:Monitor KPIs;
+note right
+KPIs:
+- Failure Rate Reduction
+- Resolution Time
+- Warranty Success Rate
+end note
+
+stop
+@enduml
+
+
+
