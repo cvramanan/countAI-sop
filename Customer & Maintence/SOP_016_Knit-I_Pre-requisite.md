@@ -16,10 +16,8 @@
 
 - Maintain reasonable winding tension for clear defect visibility.
 - Defects must be clearly visible while fabric is undisturbed on the machine.
-- For open-width machines:
-  - Fabric should run in open-width condition.
-- If tubular fabric needs to be run:
-  - Inform KNIT-I team in advance.
+- For open-width machines conversion 
+   - Fabric should run in open-width condition & if tubular fabric needs to be run inform KNIT-I team in advance.
 
 ---
 
@@ -45,8 +43,7 @@
 
 ## 4. Power Supply Requirements
 
-- Reliable 230V AC power supply.
-- Dedicated 10A plug point required.
+- Reliable 230V (+ or - 5 v)  AC power supply (or) Dedicated 10A plug point required.
 - Stabilizer recommended.
 - 1 KVA UPS with approximately 15 minutes backup recommended.
 - Proper earthing required:
@@ -87,14 +84,16 @@
 - [ ] Operator assigned for training
 - [ ] Permission given for defect creation
 
----
-
-**Prepared By:**  
-**Date:**  
 
 **Customer Approval:**  
 Name:  
 Signature:  
 Date:  
+---
+
+**Prepared By:**  
+**Date:**  
+
+
 
 ---
