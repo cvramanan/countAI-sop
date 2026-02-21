@@ -1,22 +1,49 @@
 # SOP Master List
-
-| S.No | SOP Name                                              | Ownership   | Who Uses It                     |
-|------|------------------------------------------------------|------------|----------------------------------|
-| 1    | Defect Data Creation                                 | Validation | Validation                       |
-| 2    | Post Model Deployment                                | Validation | Validation                       |
-| 3    | Model Training                                       | Validation | Validation                       |
-| 4    | Model Pre-deployment SOP                             | Validation | Validation                       |
-| 5    | Troubleshooting SOP                                  | Validation | Validation & Support             |
-| 6    | Engineer Support                                     | Validation | Validation & Service             |
-| 7    | Internal Findings                                    | Validation | Validation & Cross Functional    |
-| 8    | Installed Machine Documentation                      | Service    | Service & Cross Functional       |
-| 9    | Service Report                                       | Service    | Service & PM                     |
-| 10   | Post Installation – Customer Acknowledgement         | Service    | Customer                         |
-| 11   | Post Installation – Customer Training                | Service    | Customer                         |
-| 12   | Engineer Deputation                                  | PM         | PM                               |
-| 13   | Pre-Requisite                                        | PM         | PM                               |
-| 14   | SE – Terms & Conditions                              | Service    | Service                          |
-| 15   | SE – Daily Routine                                   | Service    | Service                          |
-| 16   | Pre-Installation – SE Material Auditing (Internal)  | Service    | Service                          |
-| 17   | Pre-Installation – SE Material Auditing (External)  | Service    | Service                          |
-| 18   | Accuracy Points                                      | Service    | Service                          |
+| S.No | SOP Name                                                         | Ownership                     | Who Uses It                         |
+|------|------------------------------------------------------------------|--------------------------------|--------------------------------------|
+| 1    | Defect Data Creation                                             | Validation                    | Validation                          |
+| 2    | Post Model Deployment                                            | Validation                    | Validation                          |
+| 3    | Model Training                                                   | Validation                    | Validation                          |
+| 4    | Model Pre-deployment SOP                                         | Validation                    | Validation                          |
+| 5    | Troubleshooting SOP (Model)                                      | Validation                    | Validation & Support                |
+| 6    | Engineer Support                                                 | Validation                    | Validation & Service                |
+| 7    | Internal Findings                                                | Validation                    | Validation & Cross Functional       |
+| 8    | Installed Machine Documentation                                  | Service                       | Service & Cross Functional          |
+| 9    | Service Report                                                   | Service                       | Service & PM                        |
+| 10   | Post Installation - Customer Acknowledgement                     | Service                       | Customer                            |
+| 11   | Post Installation - Customer Training                            | Service                       | Customer                            |
+| 12   | Engineer Deputation                                              | PM                            | PM                                  |
+| 13   | Pre Requisite                                                    | PM                            | PM                                  |
+| 14   | SE - Terms & Conditions                                          | Service                       | Service                             |
+| 15   | SE - Daily Routine                                               | Service                       | Service                             |
+| 16   | Pre Installation - SE Material Auditing (Internal)               | Service                       | Service                             |
+| 17   | Pre Installation - SE Material Auditing (External)               | Service                       | Service                             |
+| 18   | Accuracy Points                                                  | Service                       | Service                             |
+| 19   | Product Purchase Request                                         | Store                         | All Teams                           |
+| 20   | Product Replacement                                              | Hardware & Store              | Software & Hardware                 |
+| 21   | Bug & Issue Handling for Software Team                           | Software Team                 | Software & Support                  |
+| 22   | Get Help from Other Teams                                        | Software Team                 | All Teams                           |
+| 23   | Internal Meeting SOP                                             | Software Team                 | Software Team                       |
+| 24   | Developer Task Log SOP                                           | Software PM                   | Software Team                       |
+| 25   | Software File Management SOP                                     | Software PM                   | Software & Cross Functional Team    |
+| 26   | Software Testing & Release SOP                                   | Software                      | Software Team                       |
+| 27   | Software Release Notes Maintain (Excel Sheet)                    | Software PM                   | Software Team                       |
+| 28   | Voice Ticket Raising Workflow                                    | Customer Support              | Validation & Service                |
+| 29   | Ticket Closing Process                                           | Customer Support              | Customer Support                    |
+| 30   | Technical Issues Workflow                                        | Customer Support              | Customer Support                    |
+| 31   | Customer Response Handling                                       | Customer Support              | Customer Support                    |
+| 32   | WhatsApp Group Creation                                          | Customer Support              | Service Team                        |
+| 33   | Testing Requirements SOP                                         | QC - Team                     | Production & Software               |
+| 34   | Quality Control Full SOP                                         | QC - Team                     | Production & QC                     |
+| 35   | Quality Team Objectives SOP                                      | QC - Team                     | QC - Team                           |
+| 36   | Hardware Team – Electrical Documentation & Failure Analysis      | Hardware Team                 | —                                    |
+| 37   | Hand Over the SO to Production SOP                               | Sales Team, PR Team           | Production Team                     |
+| 38   | Design and TDS SOP                                               | Design, PR-PM                 | Production PM                       |
+| 39   | MO and BO Purchasing SOP                                         | PR Team                       | Production Team                     |
+| 40   | Assembly and Testing SOP                                         | PR Team                       | Production Team                     |
+| 41   | Packing, Dispatching, Review SOP                                 | PR Team                       | Production Team                     |
+| 42   | Cross Functional Work SOP                                        | PR Team                       | All Team                            |
+| 43   | MC Diverting SOP                                                 | Sales Team, PR Team           | All Team                            |
+| 44   | Store SOP                                                        | Store                         | All Team                            |
+| 45   | Purchase SOP                                                     | Purchase                      | All Team                            |
+| 46   | Design Team SOP                                                  | Design Team                   | All Team                            |
