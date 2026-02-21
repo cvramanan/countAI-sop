@@ -7,7 +7,7 @@
 
 - Individual LAN connection required for each machine.
 - Minimum > 10 Mbps (Upload & Download speed must be stable and equal) per machine.
-- Local permanent IP required for each machine.
+- Local permanent IP required for each machine.(recomended)
 - Dedicated internet line recommended (avoid shared heavy-traffic networks).
 
 ---
@@ -16,14 +16,14 @@
 
 - Maintain reasonable winding tension for clear defect visibility.
 - Defects must be clearly visible while fabric is undisturbed on the machine.
-- For open-width machines conversion 
-   - Fabric should run in open-width condition & if tubular fabric needs to be run inform KNIT-I team in advance.
+- If the machine is configured for OW / TUB condiition - it should not be changed in the machine lifetime
+- Cloth fold/ fabric waviness should not be present in the machine
 
 ---
 
 ## 3. Machine Adjustments & Mechanical Requirements
 
-- Minor adjustments in fabric spreader may be required.
+- Minor adjustments in fabric spreader may be required to increase the defect visibility.
 - Fan / Air rod adjustment may be required for top camera mounting.
 - Tubular machines may require small door holes for camera mounting.
 - Space required for:
@@ -31,7 +31,6 @@
   - Small machine hole for mounting brackets
 - Fabric Ring must be available to:
   - Maintain even camera distance
-  - Avoid cloth fold issues
 - Camera cable routing will be done from the outside part of the machine.
 - Machine parts must be symmetric.
 - Wobbling must be avoided.
@@ -75,7 +74,7 @@
 
 - [ ] Dedicated LAN connection available
 - [ ] Required internet speed verified (>10 Mbps)
-- [ ] Permanent local IP configured
+- [ ] Optional - Permanent local IP configured
 - [ ] Fabric tension properly maintained
 - [ ] Cabinet mounting space prepared
 - [ ] Proper earthing verified (<1V difference)
