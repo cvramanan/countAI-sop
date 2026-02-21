@@ -67,6 +67,9 @@
   - GSM changes
   - Color changes
   - Structure changes
+    
+## 6. Pre requisite - validation:
+- validate and confirm woth customer whether the arrange has been done before booking the engineer travel tickets with service manager in loop
 
 ---
 
