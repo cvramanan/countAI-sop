@@ -38,7 +38,7 @@
 | 35   | Quality Team Objectives SOP                                      | QC - Team                     | QC - Team                           |
 | 36   | Hardware Team – Electrical Documentation & Failure Analysis      | Hardware Team                 | —                                    |
 | 37   | Hand Over the SO to Production SOP                               | Sales Team, PR Team           | Production Team                     |
-| 38   | Design and TDS SOP                                               | Design, PR-PM                 | Production PM                       |
+| 38   | Design and TDS SOP    -> TDS Finance & approval                  | Design, PR-PM                 | Production PM                       |
 | 39   | MO and BO Purchasing SOP                                         | PR Team                       | Production Team                     |
 | 40   | Assembly and Testing SOP                                         | PR Team                       | Production Team                     |
 | 41   | Packing, Dispatching, Review SOP                                 | PR Team                       | Production Team                     |
@@ -47,3 +47,7 @@
 | 44   | Store SOP                                                        | Store                         | All Team                            |
 | 45   | Purchase SOP                                                     | Purchase                      | All Team                            |
 | 46   | Design Team SOP                                                  | Design Team                   | All Team                            |
+| 47   | RnD Machine measurement request - Manual 
+| 48   | Production execution approval
+| 49   | Change request BOM approval - SOP
+| 50   | 
