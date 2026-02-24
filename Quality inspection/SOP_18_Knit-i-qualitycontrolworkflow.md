@@ -23,7 +23,7 @@ To ensure consistent hardware quality, operational reliability, and fast issue r
 
 ---
 
-## 3. Process Flow
+## 3. Process Flow map
 
 Material Receipt → Inspection → Assembly Checking → Software Installation
 → Cabinet Testing → Approval → Dispatch
