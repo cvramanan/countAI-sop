@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.title | default: site.github.repository_name }}</title>
-    <meta name="description" content="{{ site.description | default: site.github.project_tagline }}"/>
-    
-    <!-- Link to our new custom styled stylesheet -->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  </head>
-  <body>
-    <header class="site-header">
-      <h1 class="site-title">{{ site.title | default: site.github.repository_name }}</h1>
-      <p class="site-description">{{ site.description | default: site.github.project_tagline }}</p>
-    </header>
 
-    <main class="container">
-      <div class="markdown-content">
-        {{ content }}
-      </div>
-    </main>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title | default: site.github.repository_name }}</title>
+  <meta name="description" content="{{ site.description | default: site.github.project_tagline }}" />
 
-    <footer class="site-footer">
-      <p>countAI SOP Knowledge Base &copy; 2026. Built with modern UI standards.</p>
-    </footer>
-  </body>
+  <!-- Link to our new custom styled stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+
+<body>
+  <header class="site-header">
+    <img src="{{ '/assets/images/cai_logo.png' | relative_url }}" alt="countAI Logo" class="site-logo">
+    <h1 class="site-title">{{ site.title | default: site.github.repository_name }}</h1>
+    <p class="site-description">{{ site.description | default: site.github.project_tagline }}</p>
+  </header>
+
+  <main class="container">
+    <div class="markdown-content">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>countAI SOP Knowledge Base &copy; 2026. Built with modern UI standards.</p>
+  </footer>
+</body>
+
 </html>

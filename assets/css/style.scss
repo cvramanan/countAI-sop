@@ -352,3 +352,14 @@ a.dept-card:hover {
   padding-bottom: 1rem;
   border-bottom: 2px solid var(--border-color);
 }
+
+/* Logo */
+.site-logo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: var(--radius-sm);
+}
