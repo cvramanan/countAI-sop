@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # SOP_002_NEW DEVELOPER ONBOARDING & KNOWLEDGE TRANSFER
 **Version:** 1.0  
 **Owner:** Project Manager  

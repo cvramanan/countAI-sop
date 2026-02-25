@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # COUNTAI  
 # STANDARD OPERATING PROCEDURE (SOP)  
 ## SOP – Electrical Documentation and Control  

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # SOP_002_GIT VERSION CONTROL
 
 ---
