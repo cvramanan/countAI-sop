@@ -1,0 +1,10 @@
+title: countAI SOPs
+description: Standard Operating Procedures for countAI teams
+theme: jekyll-theme-cayman
+
+# Exclude system files and artifacts
+exclude:
+  - ".gemini"
+  - ".agents"
+  - "node_modules"
+  - "brain"
