@@ -8,3 +8,7 @@ exclude:
   - ".agents"
   - "node_modules"
   - "brain"
+
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
