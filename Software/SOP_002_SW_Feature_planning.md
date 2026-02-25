@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Feature Planning SOP for Software Teams
 
 **Document Type:** Standard Operating Procedure (SOP)  

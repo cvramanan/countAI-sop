@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # countAI-SOP Master Index
 
 Welcome to the countAI Standard Operating Procedures (SOP) repository. This page serves as a central hub for all documentation related to our processes across various teams.

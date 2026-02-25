@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Customer Communication SOP
 **Role:** Technical Support Engineer  
 **Department:** Technical Support  

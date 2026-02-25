@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # SOP – SOP Naming Convention & Governance
 
 ## 1. Purpose

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # WhatsApp Group Creation SOP (KNITI Installation)
 
 ---

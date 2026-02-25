@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # KNIT-I MACHINE MAINTENANCE SOP  
 
 ---

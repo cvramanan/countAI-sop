@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # KNIT-I Pre-Requisites
 ## Installation Requirements & Site Preparation Guidelines
 

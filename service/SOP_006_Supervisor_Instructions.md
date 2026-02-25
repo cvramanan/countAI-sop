@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Supervisor’s SOP  
 ## Program Information – Knit-I
 

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # STANDARD OPERATING PROCEDURE
 
 ## Title: Daily Stand-up Meeting Process for Software Team

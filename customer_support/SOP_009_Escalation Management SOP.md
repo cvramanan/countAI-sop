@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Escalation Management SOP
 **Role:** Technical Support Engineer  
 **Department:** Technical Support  

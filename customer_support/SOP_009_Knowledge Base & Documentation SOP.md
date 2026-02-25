@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Knowledge Base & Documentation SOP
 **Role:** Technical Support Engineer  
 **Department:** Technical Support  

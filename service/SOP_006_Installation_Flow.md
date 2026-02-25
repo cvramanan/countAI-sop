@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Pre-Installation Material Auditing 
 ## Standard Operating Procedure
 

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # PHASE 1 – DEFECT VALIDATION & CLIENT ACKNOWLEDGEMENT
 ## (Instruction Procedure to Be Followed)
 

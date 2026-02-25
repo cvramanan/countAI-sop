@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # STANDARD OPERATING PROCEDURE (SOP)
 
 ## SOP ID: SOP_002 

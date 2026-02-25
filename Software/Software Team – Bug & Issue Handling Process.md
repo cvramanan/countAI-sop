@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Software Team – Bug & Issue Handling Process (SOP)
 
 ---

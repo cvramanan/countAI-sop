@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 SOp should be email communicated
 customer acknowledgement should be present for your request
 Cross depatemental person shoould be in the communication loop (EG:  From: PM team To: Customer CC: Service manager, sales)

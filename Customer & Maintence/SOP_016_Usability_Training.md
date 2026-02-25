@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # KNITI – Supernova UI Usability Training
 ## Standard Operating Procedure (SOP)
 

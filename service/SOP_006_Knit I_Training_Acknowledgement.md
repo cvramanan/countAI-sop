@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # KNIT-I TRAINING COMPLETION – MANAGEMENT ACKNOWLEDGEMENT  
 ## Standard Operating Procedure (SOP)
 

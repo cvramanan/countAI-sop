@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Program Info Guideline For Aarti
 
 ## Single Jersey

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Issue Resolution & Ticket Closure SOP
 **Role:** Technical Support Engineer  
 **Department:** Technical Support  

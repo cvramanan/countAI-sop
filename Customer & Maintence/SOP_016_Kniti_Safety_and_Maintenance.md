@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Safety, Maintenance & Standard Operating Procedure (SOP)
 ## Knit-I Inspection System (Version 11 & Version 12)
 

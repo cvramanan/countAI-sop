@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Cross-Team Support Request Process – Software Team
 
 ## 1. Purpose

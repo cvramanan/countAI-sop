@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # STANDARD OPERATING PROCEDURE (SOP)
 
 ## Title: Software Testing and Release Procedure  

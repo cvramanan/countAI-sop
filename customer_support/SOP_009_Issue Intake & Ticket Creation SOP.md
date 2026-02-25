@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Issue Intake & Ticket Creation SOP
 **Role:** Technical Support Engineer  
 **Department:** Technical Support  

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 🎙️ Voice Ticket Raising Workflow
 
 ## 📌 Overview

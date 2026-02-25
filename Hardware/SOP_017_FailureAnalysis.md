@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ![Failue_Analysis](https://github.com/user-attachments/assets/11bc967b-029f-4001-a800-49b3d871b026)
 
 @startuml

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Data Creation SOP
 
 ---

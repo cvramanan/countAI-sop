@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Software Team – Inward & Outward Stock SOP
 
 ## 1. Purpose

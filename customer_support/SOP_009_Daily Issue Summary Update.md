@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Daily WhatsApp Issue Summary Update SOP (Machine Issue Status)
 
 ---

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Internal Team Communication SOP
 **Role:** Technical Support Engineer  
 **Department:** Technical Support  

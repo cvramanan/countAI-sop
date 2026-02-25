@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Incident & Root Cause Analysis (RCA) SOP
 **Role:** Technical Support Engineer  
 **Department:** Technical Support  

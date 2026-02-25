@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Quality Team Objectives (ISO 9001:2015)
 
 **Doc Name:** KNITI-SOP-QC-00  

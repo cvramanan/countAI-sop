@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Accuracy Points – Camera & Light Alignment
 
 ---

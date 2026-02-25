@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # SOP: Sales Order Handover to Production
 
 ---

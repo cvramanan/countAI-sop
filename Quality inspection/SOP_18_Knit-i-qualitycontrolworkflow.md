@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # STANDARD OPERATING PROCEDURE  
 ## Quality Control Process Flow  
 

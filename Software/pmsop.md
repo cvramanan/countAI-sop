@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Software Task Assignment & Development SOP
 
 ## 1. Purpose

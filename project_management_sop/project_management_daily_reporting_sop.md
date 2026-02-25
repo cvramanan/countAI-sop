@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📧 SOP: Daily Project Status Email
 
 **Document Owner:** CTO  

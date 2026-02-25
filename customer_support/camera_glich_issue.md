@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # SOP – If Glitch Image in Green Camera
 
 ## Purpose

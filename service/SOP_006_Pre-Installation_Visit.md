@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # PRE-INSTALLATION SOP  
 ## AI Fabric Inspection System – Service Engineer Procedure  
 

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Ticket Closing Process SOP
 
 ---
