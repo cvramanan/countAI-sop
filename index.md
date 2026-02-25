@@ -2,25 +2,8 @@
 layout: default
 ---
 
-<div class="stats-grid">
-  <div class="stat-card">
-    <span class="stat-icon">📚</span>
-    <div class="stat-value">30+</div>
-    <div class="stat-label">Active SOPs</div>
-  </div>
-  <div class="stat-card">
-    <span class="stat-icon">🏢</span>
-    <div class="stat-value">7</div>
-    <div class="stat-label">Departments</div>
-  </div>
-  <div class="stat-card">
-    <span class="stat-icon">✅</span>
-    <div class="stat-value">100%</div>
-    <div class="stat-label">Compliance Target</div>
-  </div>
-</div>
-
 <div class="category-grid">
+
 
   <!-- Hardware Card -->
   <div class="category-card">
