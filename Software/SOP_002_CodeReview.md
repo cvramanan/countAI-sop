@@ -1,6 +1,3 @@
----
-layout: default
----
 
 # SOP_002_CODE REVIEW
 
