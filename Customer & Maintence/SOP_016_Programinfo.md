@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Program Info Guideline For Aarti
+# Program Info Guideline 
 
 ## Single Jersey
 
