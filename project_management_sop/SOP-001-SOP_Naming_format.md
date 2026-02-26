@@ -35,6 +35,9 @@ SOP_<Department code>_<SOP name>
 | 014 | Administrative |
 | 015 | Office Maintenance |
 | 016 | Customer & Maintenence |
+| 017 | Hardware |
+| 018 | Quality Inspection |
+
 
 
 No custom or ad-hoc department codes are permitted.
