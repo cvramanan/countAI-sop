@@ -1,85 +1,164 @@
+# SOP: Technical Issue Management & Resolution
+
+| Field | Details |
+|--------|----------|
+| Document Version | 1.0 |
+| Effective Date | March 3, 2026 |
+| Last Updated | March 3, 2026 |
+| Customer Support Team = Document Owner|
+
 ---
-layout: default
+
+## 1. Objective
+
+To define a structured workflow for handling technical issues with clear SLAs, escalation procedures, and measurable performance indicators.
+
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Support SOP Workflow</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f6f8;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .section {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-        ul {
-            line-height: 1.8;
-        }
-    </style>
-</head>
-<body>
+## 2. Issue Classification
 
-<h1>Technical Issues Workflow - SOP</h1>
+All issues must be categorized at ticket creation.
 
-<div class="section">
-    <h2>Issue Reporting</h2>
-    <ul>
-        <li>Customer / Service Engineer reports issue</li>
-        <li>Inform issue details to Software / Validation / Hardware team</li>
-        <li>Forward issue to PM team</li>
-    </ul>
-</div>
+### 🔴 Critical Issue
 
-<div class="section">
-    <h2>Issue Analysis</h2>
-    <ul>
-        <li>Analyze and prioritize the issue</li>
-        <li>Classify as Critical or Non-Critical</li>
-        <li>Perform basic troubleshooting</li>
-    </ul>
-</div>
+- Machine completely stopped  
+- System not capturing defects  
+- Production fully affected  
 
-<div class="section">
-    <h2>Software Issue Handling</h2>
-    <ul>
-        <li>Troubleshooting software issue</li>
-        <li>Temporary solution if required</li>
-        <li>Permanent fix via new software release</li>
-        <li>Post-fix validation</li>
-    </ul>
-</div>
+### 🟡 Non-Critical Issue
 
-<div class="section">
-    <h2>Hardware Issue Handling</h2>
-    <ul>
-        <li>Inform hardware team</li>
-        <li>Forward failure details</li>
-        <li>Follow-up until replacement</li>
-    </ul>
-</div>
+- Minor defect mismatch  
+- UI display issue  
+- Performance degradation (production running)  
 
-<div class="section">
-    <h2>Closure</h2>
-    <ul>
-        <li>Issue fixed confirmation</li>
-        <li>Inform customer</li>
-    </ul>
-</div>
+---
 
-</body>
-</html>
+## 3. SLA (Service Level Agreement)
 
-Refer Flowchart pdf: https://drive.google.com/file/d/1TATcrettCChSqN5O2c9V40pTa2SNDTNT/view?usp=drive_link
+| Severity     | Acknowledgement | Initial Analysis | Resolution Target |
+|--------------|----------------|-----------------|------------------|
+| Critical     | Within 1 hour  | Within 2 hours  | 24 hours         |
+| Non-Critical | Within 2 hours | Within 8 hours  | 72 hours         |
+
+⚠️ If resolution exceeds SLA → **Escalation required**
+
+---
+
+## 4. Detailed Workflow Process
+
+### Step 1: Ticket Logging
+
+Ticket must include:
+
+- Machine Number
+- Issue description
+- Supporting images/videos
+- Severity level
+- Date & Time of occurrence
+
+---
+
+### Step 2: Initial Troubleshooting (L1 Support)
+
+Performed by Customer Support:
+
+- Basic troubleshooting
+- Remote system check
+- Log verification
+- Restart / configuration validation
+
+**If Fixed:**  
+- Update ticket  
+- Inform customer  
+
+**If Not Fixed:**  
+- Escalate to concerned team  
+
+---
+
+### Step 3: Escalation Matrix
+
+| Issue Type     | Escalate To        | Timeline            |
+|----------------|-------------------|---------------------|
+| Software Issue | Software Team / PM | Within SLA          |
+| Model Issue    | Validation Team    | Within SLA          |
+| Hardware Issue | Hardware Team      | Immediate (Critical)|
+
+### Escalation Triggers
+
+- Issue not resolved within defined SLA  
+- Same issue repeated 3 times  
+- Production fully stopped  
+
+---
+
+### Step 4: Temporary Solution
+
+If permanent fix requires additional time:
+
+- Provide temporary workaround  
+- Clearly inform customer  
+- Update expected permanent fix date  
+
+---
+
+### Step 5: Permanent Fix
+
+- Document root cause analysis  
+- Implement fix  
+- Conduct post-fix validation  
+- Obtain customer confirmation  
+
+---
+
+### Step 6: Closure Criteria
+
+Ticket can be closed only if:
+
+- Root cause documented  
+- Temporary/permanent fix updated  
+- Customer informed  
+- Validation completed  
+- Completion date recorded  
+
+---
+
+## 5. Performance Metrics (KPIs)
+
+To measure support effectiveness:
+
+1. **First Response Time**  
+   - Target: 95% within SLA  
+
+2. **Resolution Time Compliance**  
+   - Target: 90% within SLA  
+
+3. **Repeat Issue Rate**  
+   - Target: < 5%  
+
+4. **Critical Issue Resolution (24 hrs)**  
+   - Target: 95%  
+
+5. **Daily Update Compliance**  
+   - Target: 100%  
+
+📊 Monthly performance review must be conducted by the Operations Manager.
+
+---
+
+## 6. Escalation Levels
+
+- **Level 1** – Customer Support  
+- **Level 2** – Team Lead / PM  
+- **Level 3** – Operations Manager  
+- **Level 4** – CTO  
+
+🚨 If a critical issue exceeds 24 hours → Mandatory Level 3 escalation.
+
+Flow Chart https://drive.google.com/file/d/1TATcrettCChSqN5O2c9V40pTa2SNDTNT/view?usp=drive_link
+
+---
+
+**Document Type:** SOP  
+**Version:** 2.0  
+**Owner:** Customer Support Department  
