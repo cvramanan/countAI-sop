@@ -1,181 +1,255 @@
----
-layout: default
----
+# SOP: Issue Intake & Ticket Creation
 
-# Issue Intake & Ticket Creation SOP
-**Role:** Technical Support Engineer  
-**Department:** Technical Support  
-**Version:** 1.0  
 
----
+# 1. Purpose
 
-## 1. Purpose
-The purpose of this SOP is to define a standard and consistent process for receiving, documenting, and creating support tickets for all reported issues.
+The purpose of this SOP is to define a **structured, time-bound, and measurable process** for receiving, validating, and creating support tickets for all reported issues.
 
-This ensures accurate tracking, faster resolution, and clear communication between Support, Software, and Hardware teams.
+This ensures:
+
+- No issue is missed
+- Accurate documentation
+- SLA compliance
+- Faster troubleshooting and resolution
 
 ---
 
-## 2. Scope
+# 2. Scope
+
 This SOP applies to:
 
-- All customer-reported issues
+- Customer-reported issues
 - Internal team-reported issues
-- Monitoring and system-generated alerts
+- Monitoring or system-generated alerts
 
-This SOP covers only issue intake and ticket creation, not troubleshooting or resolution.
-
----
-
-## 3. Roles & Responsibilities
-
-### Technical Support Engineer
-- Receive and acknowledge reported issues
-- Collect required information
-- Create and update tickets accurately
-- Assign correct priority and category
-
-### Customers / Internal Teams
-- Provide accurate issue details
-- Share logs, screenshots, or error messages when available
+This SOP covers only **issue intake and ticket creation (Level 1 Support stage)**.
 
 ---
 
-## 4. Issue Intake Channels
-Issues may be received through the following channels:
+# 3. Ticket Creation SLA (Mandatory)
 
-- Ticketing tool (Jira, Excel, etc.)
-- WhatsApp group
-- Monitoring alerts
-- Internal team escalation
+All reported issues must be converted into a ticket within the following timelines:
 
-**Note:** All issues must be converted into a ticket. No issue should be handled without a ticket.
+| Priority | Ticket Creation SLA |
+|---------|--------------------|
+| P1 (Critical) | Within 15 minutes |
+| P2 | Within 30 minutes |
+| P3 | Within 1 hour |
+| P4 | Within 2 hours |
 
----
-
-## 5. Mandatory Information to Collect
-
-### 5.1 Customer / Reporter Details
-- Customer or Client Name
-- Contact Person Name
-- Email ID / Phone Number
-
-### 5.2 Product & Environment Details
-- Product Name
-- Software Version
-- Hardware Model / Device ID (if applicable)
-- Operating System
-- Deployment Type (Cloud / On-Prem / Edge)
-
-### 5.3 Issue Details
-- Clear issue description
-- Date and time of issue occurrence
-- Frequency (one-time / intermittent / always)
-- Error messages or codes
-- Logs, screenshots, or videos (if available)
+Failure to create a ticket within the defined SLA will be considered **SLA non-compliance**.
 
 ---
 
-## 6. Ticket Creation Procedure
+# 4. Mandatory Ticket Fields (Non-Negotiable)
 
-### Step 1: Acknowledge the Issue
-- Acknowledge the issue within SLA timelines
-- Inform the customer that the issue has been logged and is under review
-
-### Step 2: Verify Information
-- Review received information for completeness
-- If details are missing, request additional information before proceeding
-
-### Step 3: Create the Ticket
-- Log into the ticketing system
-- Create a new ticket with accurate details
-- Use a clear and meaningful ticket title
-
-**Example Ticket Title:**
-> “UI Black Screen on Startup – Version 1.2.3”
+A ticket **must not be saved or escalated** unless the following mandatory information is captured.
 
 ---
 
-## 7. Ticket Classification
+## 4.1 Reporter Information
 
-### 7.1 Issue Category
-Select the appropriate category:
-
-- Software Issue
-- Hardware Issue
-- Configuration Issue
-- User Error / Query
-
-### 7.2 Priority Assignment
-Assign priority based on impact and urgency:
-
-| Priority | Description |
-|----------|------------|
-| P1 | System down / critical business impact |
-| P2 | Major functionality not working |
-| P3 | Minor issue with workaround |
-| P4 | General query or request |
+- Customer / Mill Name (Mandatory)
+- Contact Number or Email (Mandatory)
 
 ---
 
-## 8. Ticket Documentation Standards
-Each ticket must include:
+## 4.2 Product Details
+
+- Product Name (Mandatory)
+- Machine Number / Device ID (Mandatory)
+- Location / Department (if applicable)
+
+---
+
+## 4.3 Issue Information
+
+- Clear Issue Description (Minimum two sentences)
+- Issue Scenario / Steps where the issue occurred
+- Date & Time of Occurrence
+- Frequency (One-time / Intermittent / Continuous)
+- Error Message or Alarm Code (if available)
+- Attachments (Screenshot / Log / Image)
+
+⚠️ **Mandatory for P1 and P2 issues**
+
+Tickets with missing mandatory fields **must not proceed to escalation**.
+
+---
+
+# 5. Ticket Creation Process
+
+---
+
+## Step 1: Acknowledge the Issue
+
+- Acknowledge the issue within SLA (as defined in Customer Response SOP).
+- Inform the customer that the issue has been logged and is under review.
+
+---
+
+## Step 2: Validate Information
+
+- Verify the completeness of issue details.
+- Request additional information if required.
+- For **P1 issues**, do not delay ticket creation while waiting for additional information.
+
+---
+
+## Step 3: Create Ticket
+
+- Log into the ticketing system.
+- Enter all mandatory fields accurately.
+- Assign priority based on the priority matrix.
+- Use a clear and meaningful ticket title.
+
+### Example Ticket Title
+ABC Mill – Machine 29 – Camera No Signal
+
+---
+
+# 6. Priority Assignment Matrix
+
+| Impact | Production Down | Partial Impact | Minor Impact |
+|------|-----------------|---------------|-------------|
+| Urgent | P1 | P2 | P3 |
+| Non-Urgent | P2 | P3 | P4 |
+
+Incorrect priority assignment will be treated as a **ticket quality deviation**.
+
+---
+
+# 7. Ticket Quality Standards
+
+A ticket is considered **high quality** only if it includes:
 
 - Clear problem statement
-- Steps to reproduce (if applicable)
 - Actual result vs expected result
-- Attachments (logs, screenshots)
-- Initial assessment by support engineer
-
-Avoid vague descriptions such as:
-
-- “Not working”
-- “Issue observed”
+- Steps to reproduce (if applicable)
+- Proper attachments (images, logs, screenshots)
+- Initial assessment by L1 support engineer
 
 ---
 
-## 9. Initial Ownership
-- All newly created tickets are owned by Technical Support Team (L1)
-- Tickets must not be directly assigned to Software or Hardware teams without initial review
+### Unacceptable Example
+
+> Machine not working.
 
 ---
 
-## 10. Communication Guidelines
-- Use professional and clear language
-- Avoid internal technical jargon when communicating with customers
-- Keep all communication within the ticketing system
+### Acceptable Example
+
+> Machine 29 camera feed not detected after system restart. Error code 504 displayed. Issue started at 10:30 AM.
 
 ---
 
-## 11. SLA Compliance
-- Ensure ticket acknowledgment and creation are within defined SLA
-- Any SLA risk must be escalated to the support lead immediately
+# 8. Initial Ownership Policy
+
+- All newly created tickets remain under **L1 Technical Support ownership** until initial verification is completed.
+- Tickets must not be directly assigned to **Software or Hardware teams** without initial review.
+- Escalation requires **complete documentation**.
 
 ---
 
-## 12. Quality Check
-Before moving the ticket to troubleshooting or escalation:
+# 9. Performance Metrics (KPIs)
 
-- Verify all mandatory fields are completed
-- Confirm correct priority and category
-- Ensure attachments are readable
+The following KPIs will be measured monthly.
 
 ---
 
-## 13. Exceptions
-- For critical outages (P1), create the ticket immediately with available details and update later
-- Verbal or chat-reported issues must still be logged as tickets
+## 9.1 Ticket Creation SLA Compliance
+
+Percentage of tickets created within SLA.
+
+**Target:** ≥ 98%
 
 ---
 
-## 14. Review & Updates
-- This SOP must be reviewed quarterly
-- Updates should be made based on process or tool changes
+## 9.2 Ticket Quality Score
+
+Random audit of 10% of tickets for completeness.
+
+**Target:** ≥ 95%
 
 ---
 
-## ✅ Outcome of This SOP
+## 9.3 Missing Mandatory Field Rate
+
+Percentage of tickets with missing mandatory information.
+
+**Target:** 0%
+
+---
+
+## 9.4 Incorrect Priority Assignment Rate
+
+Percentage of tickets assigned incorrect priority.
+
+**Target:** ≤ 3%
+
+---
+
+# 10. Monitoring & Compliance
+
+---
+
+## Daily Monitoring
+
+- Support Lead reviews newly created tickets for SLA compliance.
+
+---
+
+## Weekly Audit
+
+- Random review of **10% of tickets**
+- Check ticket completeness, attachments, and priority accuracy
+
+---
+
+## Monthly Report Must Include
+
+- Total tickets created
+- SLA compliance percentage
+- Ticket quality audit score
+- Escalation rate
+
+---
+
+# 11. Escalation for Non-Compliance
+
+If SLA breach or ticket quality deviation occurs:
+
+- **1st occurrence** → Verbal reminder  
+- **2nd occurrence** → Written warning  
+- **Repeated non-compliance** → Escalation to Operations Manager
+
+---
+
+# 12. Exception Handling
+
+For **P1 Critical Outage**:
+
+- Create ticket immediately with available information.
+- Update remaining details within **1 hour**.
+- Inform Support Lead immediately.
+
+---
+
+# 13. Review Cycle
+
+This SOP must be reviewed:
+
+- Quarterly, or
+- When new tools are introduced, or
+- When SLA targets or support processes change
+
+---
+
+# Outcome of This SOP
+
+This SOP ensures:
+
 - No missing information in tickets
 - Faster troubleshooting and escalation
 - Clear ownership and accountability
-
+- SLA-compliant support operations
