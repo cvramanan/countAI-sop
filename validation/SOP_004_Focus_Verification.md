@@ -1,16 +1,6 @@
 # KNIT-I SYSTEM — STANDARD OPERATING PROCEDURE  
 ## SOP-KNITI-01: Focus Verification & Settings
 
-| Field | Details |
-|------|--------|
-| **Document ID** | SOP-KNITI-01 |
-| **Version** | 1.0 |
-| **Effective Date** | _______________ |
-| **Prepared By** | Project Manager |
-| **Approved By** | Validation Engineer |
-
----
-
 # 1. Objective
 To ensure all fixed industrial cameras on the **KNIT-I machine** are correctly focused, configured, and capable of detecting defects with full clarity before system go-live.
 
@@ -33,7 +23,6 @@ To ensure all fixed industrial cameras on the **KNIT-I machine** are correctly f
 | **Trigger** | Every new KNIT-I machine installation |
 | **Executed By** | Field Engineer (on-site) |
 | **Approved By** | Validation Engineer |
-| **Prerequisite** | Pre-installation box audit completed (ref: SOP-KNITI-00) |
 | **Time Limit** | Must be completed within **2 hours of hardware mounting** |
 
 ---
@@ -66,9 +55,7 @@ Every setting must match exactly — **partial match is not acceptable**.
 
 ## 5.2 Camera Mounting Alignment
 - Draw position markings on both **camera mounting clamps**:
-  - Horizontal position
-  - Height
-  - Angle
+  - Horizontal position  
 - Use a **permanent visible marker**.
 - Markings must **not rub off during cleaning**.
 - Capture **reference photo of mounting position** and store in installation record.
@@ -79,8 +66,7 @@ Every setting must match exactly — **partial match is not acceptable**.
 - Verify all **lighting fixtures are operational** and correctly positioned.
 - Draw position markings on **light mounting clamps** for **Cam 1 and Cam 2**.
 - Ensure:
-  - No shadows
-  - No hotspots
+  - No shadows  - 
   - No uneven illumination
 - Lighting intensity must match **approved specification**.
 
@@ -98,7 +84,7 @@ Every setting must match exactly — **partial match is not acceptable**.
 ⚠ **If physical damage is observed:**
 - Photograph immediately.
 - Inform **Project Manager**.
-- Do **not proceed** without written approval.
+- Do **not proceed** without approval.
 
 ---
 
@@ -122,12 +108,12 @@ A single **FAIL** means verification has **not passed**.
 
 | Step | Action | Details |
 |----|------|------|
-| 1 | Open Camera Config Panel | Access KNIT-I software dashboard, confirm login and machine ID |
-| 2 | Verify Software Settings | Cross-check all 4 settings against approved spec sheet |
+| 1 | Open Camera Config  | Access KNIT-I Live camera field, confirm Visibility and Exposure details|
+| 2 | Verify Software Settings | Cross-check all Section 4 settings against approved spec sheet |
 | 3 | Physical Inspection | Complete all checks in Section 5 |
 | 4 | Apply Reference Markings | Mark lens position, camera mount, and light clamps |
 | 5 | Manual Focus Adjustment | Rotate focus ring until sharpest image is achieved |
-| 6 | Capture Reference Test Image | Confirm sharpness, exposure, ROI boundaries |
+| 6 | Capture Reference Test Image | Confirm sharpness, exposure |
 | 7 | Defect Visibility Test | Place test fabric and verify Section 6 criteria |
 | 8 | Complete Verification Log | Fill all fields in Focus Verification Log |
 | 9 | Submit for Approval | Share checklist with Validation Engineer |
@@ -162,10 +148,10 @@ A single **FAIL** means verification has **not passed**.
 
 # Acceptance Checklist
 
-- [ ] All 4 settings verified and match spec sheet  
+- [ ] All settings verified and match spec sheet  
 - [ ] All physical checks passed  
 - [ ] Reference markings applied  
-- [ ] All 5 defect visibility criteria passed  
+- [ ] All defect visibility criteria passed  
 - [ ] Focus Verification Log completed  
 - [ ] Validation Engineer approval received  
 
@@ -184,12 +170,4 @@ A single **FAIL** means verification has **not passed**.
 | Overall Status (Pass / Fail) | |
 | Remarks / Issues Observed | |
 
----
 
-## Verification Sign-off
-
-| Verified By | Approved By |
-|-------------|-------------|
-| Name: __________________ | Name: __________________ |
-| Signature: ______________ | Signature: ______________ |
-| Date: ___________________ | Date: ___________________ |
