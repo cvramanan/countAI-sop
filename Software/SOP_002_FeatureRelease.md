@@ -1,6 +1,6 @@
-# LeadPulze — Product Release SOP
+# LeadPulze - Feaute Release SOP
 
-**Version:** 2.0 | **Last updated:** March 2026 | **Owner:** Product Team  
+**Version:** 1.0 | **Last updated:** March 2026 | **Owner:** Product Team  
 **Applies to:** Engineering · Product · QA · Marketing · Sales
 
 > **Purpose:** Ensure every feature release at LeadPulze is safe, predictable, and well communicated. If you are shipping anything — read this first.
