@@ -1,5 +1,6 @@
 # LeadPulze Feature Execution SOP
 
+---
 
 # Requirement
 
@@ -15,9 +16,14 @@ Before starting any work, the developer receives these things from the PM and Te
 
 3. **API and data fields** — all endpoints, request fields, and response structure based on the feature
 4. **Acceptance criteria** — the list of things that must pass, written by PM and Tech Lead together
+
+---
+
 ---
 
 # Development
+
+---
 
 ### Git Branching Rules
 
@@ -27,22 +33,154 @@ Before writing any code, make sure you are on the correct branch.
 main        → production code only. never commit directly here.
 develop     → staging. all features merge here first.
 feature/*   → your feature work. branch off from develop.
-hotfix/*    → emergency fixes on production only.
+fix/*       → non-urgent bug fixes. branch off from develop.
+hotfix/*    → emergency production fixes only. branch off from main.
 ```
 
 Always create your feature branch from `develop`, not from `main`.
 
 ```
-Example branch name:
+Example branch names:
 feature/voice-note-capture
+fix/note-save-error
+hotfix/auth-token-expiry
 
 Workflow:
 develop → create feature/voice-note-capture → build → PR → merge back into develop
 ```
 
 - [ ] Feature branch created from `develop`
-- [ ] Branch named correctly with `feature/` prefix
+- [ ] Branch named correctly with the right prefix
 - [ ] Never committing directly to `main` or `develop`
+
+---
+
+### GitHub — How Everything is Managed
+
+All work, documents, bugs, and releases are tracked in GitHub. This is the single source of truth for the engineering team.
+
+**Feature tasks and bugs**
+
+Every feature and every bug must have a GitHub Issue before work starts.
+
+```
+For a feature:
+Title:    [FEATURE] Voice Note Capture
+Label:    feature
+Assign:   developer name
+Milestone: v1.3.0
+Link:     Notion feature document URL
+
+For a bug:
+Title:    [BUG] Note not saving on mobile Safari
+Label:    bug
+Assign:   developer name
+Priority: P1 / P2 / P3
+Steps to reproduce: written in the issue body
+```
+
+Bug priority levels:
+```
+P1 — production is broken for users. fix immediately.
+P2 — major feature broken but app still works. fix in current cycle.
+P3 — minor issue, low impact. fix in next release.
+```
+
+**Pull Requests**
+
+Every PR must be linked to its GitHub Issue.
+
+```
+PR title format:
+[FEATURE] Voice Note Capture   → for features
+[FIX] Note save on mobile      → for bug fixes
+[HOTFIX] Auth token expiry     → for emergency fixes
+
+PR body must include:
+- What was built or fixed
+- Link to the GitHub Issue  (e.g. Closes #42)
+- Screenshots or screen recording
+- Acceptance criteria checklist — every item marked pass or fail
+```
+
+Writing `Closes #42` in the PR body automatically closes the issue when the PR is merged.
+
+**Labels to use**
+
+```
+feature      → new feature work
+bug          → something broken
+hotfix       → emergency production fix
+in progress  → actively being worked on
+in review    → PR raised, waiting for review
+blocked      → waiting on something before it can move
+ready for release → tested and approved, waiting for deploy
+released     → shipped to production
+```
+
+**Milestones**
+
+Each release version is a Milestone in GitHub.
+All issues and PRs for that release are linked to the milestone.
+
+```
+Example:
+Milestone: v1.3.0
+Issues linked:
+  #41 — [FEATURE] Voice Note Capture
+  #42 — [FIX] Lead search wrong results
+  #43 — [FIX] Timeline not refreshing
+```
+
+This gives a clear picture of everything going into each release.
+
+**Release notes in GitHub**
+
+When a version is tagged, create a GitHub Release with the changelog:
+
+```
+Tag:   v1.3.0
+Title: v1.3.0 — Voice Note Capture
+
+Body:  paste the changelog entry here
+       (same content as the Notion release document)
+```
+
+**Documents**
+
+All technical documents are stored in the repository under a `/docs` folder.
+
+```
+/docs
+  /features
+    voice-note-capture.md       ← technical plan for this feature
+  /api
+    lead-notes-api.md           ← API endpoint documentation
+  README.md                     ← project setup and overview
+  CHANGELOG.md                  ← running list of all releases
+```
+
+Every time a feature ships, the developer updates the relevant doc files and includes them in the same PR.
+
+Non-technical documents — release documents, incident reports, and internal write-ups — are stored in **Google Docs**, organised in a shared Google Drive folder.
+
+```
+Google Drive folder structure:
+LeadPulze/
+  Releases/
+    v1.3.0 — Voice Note Capture.gdoc
+    v1.3.1 — Bug Fix Release.gdoc
+  Incidents/
+    2026-03-12 — Note Save Failure.gdoc
+```
+
+- [ ] GitHub Issue created before starting work
+- [ ] PR linked to the issue with `Closes #issue-number`
+- [ ] Correct label applied to the issue and PR
+- [ ] Issue linked to the correct milestone
+- [ ] Relevant docs in `/docs` updated in the same PR
+- [ ] Release document written in Google Docs
+- [ ] GitHub Release created after deploy with the changelog
 
 ---
 
@@ -369,7 +507,7 @@ QA confirms to the PM that the feature is ready. PM gives the final go for relea
 
 ---
 
-# Definition of Done
+# ✅ Definition of Done
 
 A feature is only complete and ready to release when every single item below is checked.
 If any item is not done, the feature does not ship.
@@ -394,7 +532,7 @@ If any item is not done, the feature does not ship.
 
 ---
 
-# Release
+# 🚀 Release
 
 ---
 
@@ -416,7 +554,7 @@ git push origin v1.3.0
 
 ### Release document
 
-PM fills this in Notion before every deploy. Deploy does not happen without it.
+PM fills this in Google Docs before every deploy. Deploy does not happen without it.
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -469,7 +607,7 @@ Feature flag name:
   Example: feature_voice_note_capture
 
 Rollout stage:
-  [ ] Internal   [ ] Beta
+  [ ] Internal   [ ] Beta   [ ] 25%   [ ] 100%
 
 Database changes:
   List new tables, columns, or migrations. If none — write: None
@@ -579,7 +717,7 @@ If anything looks wrong during the 30 minutes:
    git revert <merge-commit-hash>
    git push origin main
 5. Re-run smoke test to confirm stable
-6. Write incident summary and add to the release doc in Notion
+6. Write incident summary and add to the release doc in Google Docs
 7. Do not re-enable the flag until bug is fixed and retested on staging
 ```
 
