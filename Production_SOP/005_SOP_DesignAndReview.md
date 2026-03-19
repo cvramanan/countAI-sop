@@ -17,7 +17,7 @@ This SOP applies to the Mechanical Design team involved in reviewing TDS and rel
 **Design Engineer**
 - Review TDS and understand machine requirements.
 - Prepare and release assembly drawings, BOM, and checklist.
-- Share nesting requirements and files as in mail format.
+- Share nesting requirements and files to fabrication as in mail format.
 
 **Design Lead / Manager**
 - Review and approve design outputs.
@@ -76,7 +76,7 @@ Design engineer shall prepare and release:
 - ✅ Assembly Drawing (Assy)
 - ✅ Bill of Materials (BOM)
 - ✅ Design Checklist
-- ✅ Any supporting calculation/report (if applicable)
+- ✅ Any supporting calculation/report
 
 ---
 
@@ -86,7 +86,6 @@ Design engineer shall prepare and release:
   - Sheetmetal Items Confirmations
   - BOM completeness
   - Standard compliance
-  - Manufacturability
 - Corrections (if any) to be closed before release.
 
 > ✅ No document shall be released without review approval.
@@ -108,7 +107,7 @@ Design engineer shall prepare and release:
 
 After approval:
 
-- Upload final documents to project folder.
+- Upload final documents to project folder in drive.
 - Inform Production and Planning via email.
 - Ensure correct revision naming.
 
