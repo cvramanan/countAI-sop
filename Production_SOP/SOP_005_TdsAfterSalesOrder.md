@@ -22,7 +22,7 @@ This SOP applies to all Sales, Application/Technical, and Production teams invol
 - Collect and submit complete Technical Data Sheet (TDS) and Sales Order.
 
 **Technical/Application Team**
-- Verify technical feasibility (if applicable).
+- Technical team verification.
 
 **Production Team**
 - Review and accept order for production.
@@ -34,9 +34,7 @@ This SOP applies to all Sales, Application/Technical, and Production teams invol
 
 ## 4. Procedure
 
-### 4.1 Sales Order Preparation
-- Sales person receives confirmed Purchase Order (PO) from customer.  
-- Sales person creates the internal Sales Order.  
+### 4.1 Sales Order Preparation  
 - Sales person downloads and fills the Technical Data Sheet (TDS) in the prescribed format.
 
 ---
@@ -65,14 +63,14 @@ Sales person must ensure the following are properly filled in the provided table
 | Machine Images (Top Feeder Side) | |
 | Machine Images (Door Open Side) | |
 
-> ✅ All fields are mandatory unless specified otherwise  
+> ✅ All fields are mandatory 
 > ✅ Images must be clear and attached
 
 ---
 
 ### 4.3 Internal Verification
 - Sales person reviews TDS for completeness.  
-- Any missing information must be obtained from the customer before handover.
+- Any missing information must be obtained from the customer before handover by Sales person.
 
 ---
 
@@ -93,7 +91,7 @@ Sales person submits the following to Production:
 - Production reviews documents within **2 hours**.  
 - If details are complete → **Order accepted**.  
 - If gaps found → **Query raised to Sales**.  
-- Planning team updates the production schedule.
+- Planning (PM) team updates the production schedule.
 
 ---
 
@@ -108,10 +106,9 @@ Sales person submits the following to Production:
 
 Before handover, confirm:
 
-- [ ] Sales Order created  
 - [ ] TDS fully filled  
 - [ ] Images attached  
-- [ ] Technical review done (if required)  
+- [ ] Technical team review done
 - [ ] Customer special notes added  
 - [ ] Files uploaded/shared  
 
