@@ -106,4 +106,6 @@ With proper markings in place:
 - Version: 1.0  
 - Prepared By: Validation Team  
 - Approved By: __________________  
-- Effective Date: __________________  
+- Effective Date: __________________
+
+### Refer the document - https://docs.google.com/document/d/1MYnAgk2X0awmP5Ptej8i5zw2jlZAqgxazE84tFq80b8/edit?usp=sharing
