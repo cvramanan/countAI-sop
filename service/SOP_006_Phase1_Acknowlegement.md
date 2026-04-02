@@ -122,3 +122,5 @@ By signing below, we confirm that:
 **Company Seal:** ___________________________
 
 ---
+### Refer to the official template here: 
+https://docs.google.com/document/d/1v0lgLWbKJB54hwthY0M-XtJWjyR8-cMJqoESA7O1upw/edit?usp=sharing
